@@ -1,0 +1,19 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+    :root {
+        --gold: 210, 179, 86;
+    }
+}
+
+body {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+}
+
+@layer components {
+    .gold-line {
+        @apply h-[5px] bg-gold w-8 block my-6;
+    }
+}
